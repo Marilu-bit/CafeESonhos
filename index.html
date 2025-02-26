@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#C08552"> <!--Muda a cor do topo-->
+    <title>Café & Sonhos</title>
+</head>
+
+<body>
+    <div id="banner">
+        <div id="barra"></div>
+        <img src="img/Nao_produto/banner.jpg" alt="">
+        <div id="texto-banner">
+            <h1>Café & <br> Sonhos</h1>
+            <p>Onde cada xicara conta uma <br> historia.</p>
+        </div>
+    </div>
+
+    <div id="promocao">
+        <h2>❤️Promoção Dia dos Namorados❤️</h2>
+
+        <div class="promocao">
+            <div class="opcoes-caixa">
+                <img src="img/Cafe/caramelo.jpg" alt="">
+                <p>Caramelo</p>
+                <p>Café</p>
+                <p id="preco">R$3,00</p>
+            </div>
+
+            <div class="opcoes-caixa">
+                <img src="img/Cha/camomila.jpg" alt="">
+                <p>Camomila</p>
+                <p>Chá</p>
+                <p id="preco">R$2,99</p>
+            </div>
+
+            <div class="opcoes-caixa">
+                <img src="img/Comestivel/torta.jpg" alt="">
+                <p>Torta</p>
+                <p>Doce</p>
+                <p id="preco">R$3,99</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu">
+
+        <h2>Menu</h2>
+
+        <select id="filtrar">
+            <option>🔍 Filtre...</option>
+            <option value="cha">🫖 Chá</option>
+            <option value="cafe">🍵 Café</option>
+            <option value="doce">🧁 Doce</option>
+            <option value="pao">🍞 Pão</option>
+        </select>
+
+
+        <div class="opcoes">
+
+            <!--CAFÉ-->
+            <div class="opcoes-caixa" data-categoria="cafe">
+                <img src="img/Cafe/americano.jpg" alt="">
+                <p>Americano</p>
+                <p>Café</p>
+                <p id="preco">R$8,50</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cafe">
+                <img src="img/Cafe/cappuccino.jpg" alt="">
+                <p>cappuccino</p>
+                <p>Café</p>
+                <p id="preco">R$9,50</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cafe">
+                <img src="img/Cafe/espresso.jpg" alt="">
+                <p>Café espresso</p>
+                <p>Café</p>
+                <p id="preco">R$6,50</p>
+            </div>
+            <div class="opcoes-caixa" data-categoria="cafe">
+                <img src="img/Cafe/latte.jpg" alt="">
+                <p>Café Latte</p>
+                <p>Café</p>
+                <p id="preco">R$10,50</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cafe">
+                <img src="img/Cafe/mocha.jpg" alt="">
+                <p>Café mocha</p>
+                <p>Café</p>
+                <p id="preco">R$12,50</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cafe">
+                <img src="img/Cafe/preto.jpg" alt="">
+                <p>Café Preto</p>
+                <p>Café</p>
+                <p id="preco">R$3,50</p>
+            </div>
+
+
+
+            <!--CHÁ-->
+
+            <div class="opcoes-caixa" data-categoria="cha">
+                <img src="img/Cha/camomila.jpg" alt="">
+                <p>Chá Camomila</p>
+                <p>Chá</p>
+                <p id="preco">R$2,99</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cha">
+                <img src="img/Cha/Ervacidreira.jpg" alt="">
+                <p>Chá de Erva-Cidreira</p>
+                <p>Chá</p>
+                <p id="preco">R$3,49</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cha">
+                <img src="img/Cha/eucalipto.jpg" alt="">
+                <p>Chá eucalipto</p>
+                <p>Chá</p>
+                <p id="preco">R$3,90</p>
+            </div>
+            <div class="opcoes-caixa" data-categoria="cha">
+                <img src="img/Cha/hortela.jpg" alt="">
+                <p>Chá hortela</p>
+                <p>Chá</p>
+                <p id="preco">R$4,19</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cha">
+                <img src="img/Cha/preto.jpg" alt="">
+                <p>Chá preto</p>
+                <p>Chá</p>
+                <p id="preco">R$13,99</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="cha">
+                <img src="img/Cha/verde.jpg" alt="">
+                <p>Chá verde</p>
+                <p>Chá</p>
+                <p id="preco">R$2,49</p>
+            </div>
+
+
+            <!--COMESTIVEL-->
+
+            <div class="opcoes-caixa" data-categoria="doce">
+                <img src="img/Comestivel/bolo.jpg" alt="">
+                <p>Bolo</p>
+                <p>Doce</p>
+                <p id="preco">R$13,99</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="doce">
+                <img src="img/Comestivel/folhado.jpg" alt="">
+                <p>Bolo folhado</p>
+                <p>Doce</p>
+                <p id="preco">R$15,99</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="pao">
+                <img src="img/Comestivel/french.jpg" alt="">
+                <p>Pão Francês</p>
+                <p>Pão</p>
+                <p id="preco">R$4,99</p>
+            </div>
+            <div class="opcoes-caixa" data-categoria="pao">
+                <img src="img/Comestivel/napoli.jpg" alt="">
+                <p>Pão Napolitano</p>
+                <p>Pão</p>
+                <p id="preco">R$5,99</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="doce">
+                <img src="img/Comestivel/scones.jpg" alt="">
+                <p>Scones</p>
+                <p>Doce</p>
+                <p id="preco">R$4,99</p>
+            </div>
+
+            <div class="opcoes-caixa" data-categoria="doce">
+                <img src="img/Comestivel/torta.jpg" alt="">
+                <p>Torta</p>
+                <p>Doce</p>
+                <p id="preco">R$3,99</p>
+            </div>
+
+
+            
+        
+        </div>
+    </div>
+
+    <script>
+        // Filtra os itens do menu
+        document.getElementById('filtrar').addEventListener('change', function() {
+            var categoriaSelecionada = this.value;
+            var opcoesCaixa = document.querySelectorAll('.opcoes-caixa');
+
+            opcoesCaixa.forEach(function(opcao) {
+                if (categoriaSelecionada === 'cha') {
+                    if (opcao.getAttribute('data-categoria') === 'cha') {
+                        opcao.style.display = 'block';
+                    } else {
+                        opcao.style.display = 'none';
+                    }
+                } else if (categoriaSelecionada === 'cafe') {
+                    if (opcao.getAttribute('data-categoria') === 'cafe') {
+                        opcao.style.display = 'block';
+                    } else {
+                        opcao.style.display = 'none';
+                    }
+                } else if (categoriaSelecionada === 'doce') {
+                    if (opcao.getAttribute('data-categoria') === 'doce') {
+                        opcao.style.display = 'block';
+                    } else {
+                        opcao.style.display = 'none';
+                    }
+                } else if (categoriaSelecionada === 'pao') {
+                    if (opcao.getAttribute('data-categoria') === 'pao') {
+                        opcao.style.display = 'block';
+                    } else {
+                        opcao.style.display = 'none';
+                    }
+                } else {
+                    opcao.style.display = 'block'; // Mostra todas as opções
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

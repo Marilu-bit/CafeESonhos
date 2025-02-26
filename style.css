@@ -1,0 +1,240 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #F3E9DC;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 80px;
+    line-height: 120px;
+}
+
+
+
+
+/*BANNER*/
+#banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 560px;
+}
+
+#barra {
+    width: 100%;
+    height: 40px;
+    background-color: #C08552;
+}
+
+#banner img {
+    width: 100%;/*Para que a imagem ocupe todo o espaço do conteiner*/
+    height: 560px;
+}
+
+#texto-banner h1 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+
+#texto-banner p {
+    position: absolute;
+    position: absolute;
+    top: 66%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+
+
+
+/*PROMOÇÃO*/
+
+.promocao{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 100%;
+}
+
+.opcoes-caixa {
+    width: 302px;
+    height: 440px;
+    background-color: #E0A572;
+    border-radius: 30px;
+    border-color: #3F0F06;
+    border-style: groove;
+}
+
+.promocao img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.promocao p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#preco {
+    font-weight: bold;
+    /*Para deixar em negrito*/
+}
+
+
+
+
+
+
+
+
+/*Filtro*/
+#filtrar {
+    position: absolute;
+    right: 200px;/* Isso move o select para o lado direito da tela */
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #C08552;
+    font-size: 20px;
+    color: #3F0F06;
+}
+
+
+
+
+
+/*MENU*/
+
+.opcoes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;/* Permite que os itens "quebrem" para a linha seguinte */
+    gap: 180px; /* Espaçamento entre os itens */
+    top: 70px;
+    left: 70px;
+    width: 100%;
+}
+
+
+
+.opcoes img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.opcoes p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    #banner {
+        height: 300px;
+    }
+
+    #banner img {
+        height: 300px;
+    }
+
+    #texto-banner h1 {
+        font-size: 40px;
+    }
+
+    #texto-banner p {
+        font-size: 20px;
+        left: 150px;
+    }
+
+
+
+        /* Filtro*/
+        #filtrar {
+            position: absolute;
+            right: 20px;
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: #C08552;
+            font-size: 20px;
+            color: #3F0F06;
+        }
+    
+        /* Menu*/
+        .opcoes {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px; 
+            top: 70px;
+            left: 10px;
+            width: 100%;
+        }
+}
+
+
+
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    #banner img {
+        height: 100%;
+    }
+
+    #texto-banner h1 {
+        font-size: 40px;
+    }
+
+    #texto-banner p {
+        font-size: 20px;
+        left: 150px;
+    }
+
+
+    /* Filtro*/
+    #filtrar {
+        position: absolute;
+        right: 100px;
+        width: 300px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #C08552;
+        font-size: 20px;
+        color: #3F0F06;
+    }
+
+    /* Menu*/
+    .opcoes {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 180px; 
+        top: 70px;
+        left: 80px;
+        width: 100%;
+    }
+}

@@ -195,46 +195,91 @@ h2 {
 
 
 
-
-@media (max-width: 480px) {
+/* RESPONSIVIDADE */
+@media (max-width: 600px), (max-height: 1000px) {
     h2 {
         font-size: 40px;
+        line-height: 60px;
     }
-
+    
+    #banner {
+        height: 300px;
+    }
+    
     #banner img {
-        height: 100%;
+        height: 300px;
     }
-
+    
     #texto-banner h1 {
-        font-size: 40px;
+        font-size: 45px;
+        left: 25%;
     }
-
+    
     #texto-banner p {
-        font-size: 20px;
-        left: 150px;
+        font-size: 18px;
+        left: 25%;
     }
 
-
-    /* Filtro*/
     #filtrar {
-        position: absolute;
-        right: 100px;
-        width: 300px;
-        height: 30px;
-        border-radius: 10px;
-        background-color: #C08552;
-        font-size: 20px;
-        color: #3F0F06;
+        right: 20px;
+        width: 200px;
     }
 
-    /* Menu*/
-    .opcoes {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 180px; 
-        top: 70px;
-        left: 80px;
-        width: 100%;
+    .opcoes-caixa {
+        width: 180px;
+        height: 280px;
+    }
+    
+    .opcoes img, .promocao img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .opcoes p, .promocao p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px), (max-height: 600px) {
+    h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    #banner {
+        height: 200px;
+    }
+    
+    #banner img {
+        height: 200px;
+    }
+    
+    #texto-banner h1 {
+        font-size: 35px;
+        left: 30%;
+    }
+    
+    #texto-banner p {
+        font-size: 16px;
+        left: 30%;
+    }
+
+    #filtrar {
+        right: 10px;
+        width: 150px;
+    }
+
+    .opcoes-caixa {
+        width: 160px;
+        height: 240px;
+    }
+    
+    .opcoes img, .promocao img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .opcoes p, .promocao p {
+        font-size: 14px;
     }
 }

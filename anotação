@@ -1,0 +1,180 @@
+No HTML, o atributo `type` é utilizado em várias tags de formulário para definir o tipo de controle de entrada, como campos de texto, botões, checkboxes, entre outros. Aqui está uma lista dos tipos mais comuns de input que você pode usar no atributo `type` da tag `<input>` em um formulário:
+
+### Tipos de input (`<input type="...">`):
+
+1. **`text`**: Campo de texto simples.
+   ```html
+   <input type="text" placeholder="Digite seu nome">
+   ```
+
+2. **`password`**: Campo de senha, os caracteres são ocultos.
+   ```html
+   <input type="password" placeholder="Digite sua senha">
+   ```
+
+3. **`email`**: Campo para inserir um e-mail (pode incluir validação do formato do e-mail).
+   ```html
+   <input type="email" placeholder="exemplo@dominio.com">
+   ```
+
+4. **`number`**: Campo para números. Pode ser configurado com um intervalo de valores.
+   ```html
+   <input type="number" min="1" max="100" step="1">
+   ```
+
+5. **`tel`**: Campo para números de telefone.
+   ```html
+   <input type="tel" placeholder="(XX) XXXXX-XXXX">
+   ```
+
+6. **`url`**: Campo para inserir uma URL (com validação de formato de link).
+   ```html
+   <input type="url" placeholder="https://www.exemplo.com">
+   ```
+
+7. **`checkbox`**: Caixa de seleção.
+   ```html
+   <input type="checkbox" id="termos">
+   <label for="termos">Aceito os termos e condições</label>
+   ```
+
+8. **`radio`**: Botão de opção (um grupo de opções exclusivas).
+   ```html
+   <input type="radio" name="genero" value="masculino"> Masculino
+   <input type="radio" name="genero" value="feminino"> Feminino
+   ```
+
+9. **`submit`**: Botão para enviar o formulário.
+   ```html
+   <input type="submit" value="Enviar">
+   ```
+
+10. **`reset`**: Botão para redefinir o formulário para os valores iniciais.
+   ```html
+   <input type="reset" value="Limpar">
+   ```
+
+11. **`button`**: Botão genérico, que pode ser usado para outras ações JavaScript.
+   ```html
+   <input type="button" value="Clique aqui">
+   ```
+
+12. **`file`**: Campo para enviar arquivos.
+   ```html
+   <input type="file">
+   ```
+
+13. **`date`**: Campo para selecionar uma data.
+   ```html
+   <input type="date">
+   ```
+
+14. **`time`**: Campo para selecionar uma hora.
+   ```html
+   <input type="time">
+   ```
+
+15. **`datetime-local`**: Campo para selecionar uma data e hora local.
+   ```html
+   <input type="datetime-local">
+   ```
+
+16. **`month`**: Campo para selecionar um mês e ano.
+   ```html
+   <input type="month">
+   ```
+
+17. **`week`**: Campo para selecionar uma semana de um ano.
+   ```html
+   <input type="week">
+   ```
+
+18. **`range`**: Campo deslizante (slider) para selecionar um valor dentro de um intervalo.
+   ```html
+   <input type="range" min="0" max="100" value="50">
+   ```
+
+19. **`color`**: Campo para selecionar uma cor.
+   ```html
+   <input type="color">
+   ```
+
+20. **`search`**: Campo para pesquisa, com um ícone de pesquisa integrado.
+   ```html
+   <input type="search" placeholder="Buscar...">
+   ```
+
+Esses são os tipos mais comuns que você pode usar para criar formulários no HTML. Cada tipo tem uma funcionalidade específica que ajuda a otimizar a experiência do usuário ao interagir com formulários em um site. Se precisar de mais exemplos ou detalhes, fique à vontade para perguntar!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DISPLAY:
+
+Resumo
+
+    block: Elementos ocupam toda a largura disponível e começam em uma nova linha.
+    inline: Elementos ficam na mesma linha, com largura limitada ao conteúdo.
+    inline-block: Elementos ficam na mesma linha, mas podem ter altura e largura definidas.
+    none: O elemento desaparece e não ocupa espaço.
+    flex: Cria layouts flexíveis para alinhar e distribuir espaço entre itens.
+    grid: Cria layouts em duas dimensões (linhas e colunas).
+    table: O elemento se comporta como uma tabela HTML.
+    list-item: Comporta-se como um item de lista.
